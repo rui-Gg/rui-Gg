@@ -8,9 +8,9 @@
 
 # RUI
 
-**Cloud Infrastructure · Systems Engineering · Automation**
+**Cloud Infrastructure · AI Agents · Systems Engineering**
 
-*Building reliable systems. Keeping room for possibility.*
+*Building reliable systems. Exploring intelligent ways to work.*
 
 <br/>
 
@@ -29,11 +29,15 @@
 
 ### FOCUS
 
-Cloud & Infrastructure&nbsp;&nbsp; / &nbsp;&nbsp;Linux & Networking&nbsp;&nbsp; / &nbsp;&nbsp;Containers & CI/CD&nbsp;&nbsp; / &nbsp;&nbsp;Observability
+Cloud & Infrastructure&nbsp;&nbsp; / &nbsp;&nbsp;AI Agents & Tooling&nbsp;&nbsp; / &nbsp;&nbsp;Automation & Reliability
 
 <br/>
 
 <img src="https://skillicons.dev/icons?i=aws,linux,docker,nginx,jenkins,gitlab,python,bash,grafana,prometheus&theme=dark" alt="Technology stack"/>
+
+<br/>
+
+<sub>Exploring agentic workflows, tool integration, and human-in-the-loop automation.</sub>
 
 </div>
 
@@ -47,10 +51,12 @@ Cloud & Infrastructure&nbsp;&nbsp; / &nbsp;&nbsp;Linux & Networking&nbsp;&nbsp; 
 
 ```mermaid
 flowchart LR
-    EDGE["Edge & Network"] --> APP["Services & Containers"]
+    EDGE["Cloud & Network"] --> APP["Services & Infrastructure"]
     PIPE["CI / CD"] --> APP
+    AGENT["AI Agent"] --> TOOLS["Tools & APIs"]
+    TOOLS --> APP
     APP --> DATA[("Data & Storage")]
-    APP --> OBS["Metrics & Observability"]
+    APP --> OBS["Observability"]
     DATA --> REC["Backup & Recovery"]
 ```
 
