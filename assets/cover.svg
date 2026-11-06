@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Stay curious, take the scenic route</title>
+  <desc id="desc">A warm sunrise over distant mountains, rolling hills and a winding road.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f8d8b4"/>
+      <stop offset="48%" stop-color="#f4bda2"/>
+      <stop offset="100%" stop-color="#8fbfd0"/>
+    </linearGradient>
+    <linearGradient id="sunGlow" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fff5d7" stop-opacity=".95"/>
+      <stop offset="100%" stop-color="#ffd7a3" stop-opacity=".15"/>
+    </linearGradient>
+    <linearGradient id="farHills" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#829e9c"/>
+      <stop offset="100%" stop-color="#6e8c8c"/>
+    </linearGradient>
+    <linearGradient id="nearHills" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#496f70"/>
+      <stop offset="100%" stop-color="#294d54"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="360" fill="url(#sky)"/>
+  <circle cx="930" cy="104" r="82" fill="url(#sunGlow)"/>
+  <circle cx="930" cy="104" r="42" fill="#fff1c9" opacity=".96"/>
+  <g fill="#fff7e8" opacity=".34">
+    <ellipse cx="770" cy="124" rx="95" ry="18"/>
+    <ellipse cx="830" cy="116" rx="60" ry="15"/>
+    <ellipse cx="1080" cy="158" rx="110" ry="17"/>
+    <ellipse cx="1020" cy="151" rx="58" ry="13"/>
+  </g>
+  <path d="M0 238 L120 151 L198 211 L315 112 L418 218 L540 143 L650 226 L780 132 L895 220 L1015 148 L1125 225 L1200 174 L1200 360 L0 360Z" fill="#a5b6ae" opacity=".76"/>
+  <path d="M0 263 L148 196 L250 249 L385 166 L498 251 L625 183 L745 260 L875 183 L1002 250 L1110 193 L1200 242 L1200 360 L0 360Z" fill="url(#farHills)"/>
+  <path d="M0 277 C145 250 210 292 340 270 C485 245 575 292 700 267 C850 236 965 282 1080 257 C1135 246 1170 252 1200 260 L1200 360 L0 360Z" fill="#6f9290"/>
+  <path d="M0 310 C145 276 245 319 370 295 C510 269 610 320 750 293 C900 263 1040 312 1200 281 L1200 360 L0 360Z" fill="url(#nearHills)"/>
+  <path d="M735 360 C745 329 776 315 815 300 C848 288 868 273 887 253" fill="none" stroke="#e9c89b" stroke-width="34" stroke-linecap="round" opacity=".96"/>
+  <path d="M735 360 C745 329 776 315 815 300 C848 288 868 273 887 253" fill="none" stroke="#fff0d0" stroke-width="2.5" stroke-dasharray="9 11" stroke-linecap="round" opacity=".9"/>
+  <g fill="none" stroke="#fff8ed" stroke-width="2" opacity=".72">
+    <path d="M102 100 q10 -10 20 0 q10 -10 20 0"/>
+    <path d="M170 123 q8 -8 16 0 q8 -8 16 0"/>
+    <path d="M650 85 q9 -9 18 0 q9 -9 18 0"/>
+  </g>
+  <g fill="#284e55" opacity=".48">
+    <path d="M1040 276 l8 -26 l8 26z"/>
+    <path d="M1051 276 l9 -32 l9 32z"/>
+    <path d="M1092 284 l8 -24 l8 24z"/>
+  </g>
+  <text x="78" y="76" fill="#365a61" font-family="Arial, Helvetica, sans-serif" font-size="14" letter-spacing="5">RUI-GG  /  PERSONAL SPACE</text>
+  <text x="74" y="163" fill="#183d49" font-family="Georgia, 'Times New Roman', serif" font-size="64" font-weight="bold" letter-spacing="-1">STAY CURIOUS.</text>
+  <text x="80" y="211" fill="#284f59" font-family="Georgia, 'Times New Roman', serif" font-size="27" font-style="italic" letter-spacing="1">Take the scenic route.</text>
+  <text x="80" y="292" fill="#f9e9d1" font-family="Arial, Helvetica, sans-serif" font-size="12" letter-spacing="4">LIFE  ·  IDEAS  ·  LITTLE ADVENTURES</text>
+  <path d="M80 232 H278" stroke="#fff4df" stroke-width="2" opacity=".8"/>
+  <circle cx="1100" cy="73" r="3" fill="#fff6df"/>
+  <circle cx="1134" cy="98" r="2" fill="#fff6df"/>
+  <circle cx="1067" cy="120" r="2" fill="#fff6df"/>
+</svg>
