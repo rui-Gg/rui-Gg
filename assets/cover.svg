@@ -1,56 +1,72 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
-  <title id="title">Stay curious, take the scenic route</title>
-  <desc id="desc">A warm sunrise over distant mountains, rolling hills and a winding road.</desc>
-  <defs>
-    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#f8d8b4"/>
-      <stop offset="48%" stop-color="#f4bda2"/>
-      <stop offset="100%" stop-color="#8fbfd0"/>
-    </linearGradient>
-    <linearGradient id="sunGlow" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#fff5d7" stop-opacity=".95"/>
-      <stop offset="100%" stop-color="#ffd7a3" stop-opacity=".15"/>
-    </linearGradient>
-    <linearGradient id="farHills" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#829e9c"/>
-      <stop offset="100%" stop-color="#6e8c8c"/>
-    </linearGradient>
-    <linearGradient id="nearHills" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#496f70"/>
-      <stop offset="100%" stop-color="#294d54"/>
-    </linearGradient>
-  </defs>
-  <rect width="1200" height="360" fill="url(#sky)"/>
-  <circle cx="930" cy="104" r="82" fill="url(#sunGlow)"/>
-  <circle cx="930" cy="104" r="42" fill="#fff1c9" opacity=".96"/>
-  <g fill="#fff7e8" opacity=".34">
-    <ellipse cx="770" cy="124" rx="95" ry="18"/>
-    <ellipse cx="830" cy="116" rx="60" ry="15"/>
-    <ellipse cx="1080" cy="158" rx="110" ry="17"/>
-    <ellipse cx="1020" cy="151" rx="58" ry="13"/>
+<title id="title">Build systems. Explore possibilities.</title>
+<desc id="desc">A modern cloud infrastructure inspired banner with a warm sunrise, network connections, server layers and a bright horizon.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#0b1728"/>
+    <stop offset=".58" stop-color="#142c43"/>
+    <stop offset="1" stop-color="#244b5a"/>
+  </linearGradient>
+  <linearGradient id="sun" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#ffd7a0" stop-opacity=".95"/>
+    <stop offset="1" stop-color="#f28e67" stop-opacity=".08"/>
+  </linearGradient>
+  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#5eead4"/>
+    <stop offset="1" stop-color="#60a5fa"/>
+  </linearGradient>
+  <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#203b50" stop-opacity=".96"/>
+    <stop offset="1" stop-color="#13283a" stop-opacity=".9"/>
+  </linearGradient>
+  <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+    <path d="M36 0H0V36" fill="none" stroke="#9cc6d4" stroke-opacity=".10" stroke-width="1"/>
+  </pattern>
+</defs>
+<rect width="1200" height="360" fill="url(#bg)"/>
+<rect width="1200" height="360" fill="url(#grid)"/>
+<circle cx="1000" cy="125" r="120" fill="url(#sun)" opacity=".8"/>
+<circle cx="1000" cy="125" r="54" fill="#ffd9a6" opacity=".9"/>
+<path d="M690 260L815 184L900 231L1010 150L1100 218L1200 165V360H690Z" fill="#294e5a" opacity=".75"/>
+<path d="M650 300L790 230L880 268L1005 202L1110 265L1200 224V360H650Z" fill="#1c3c4c" opacity=".9"/>
+<path d="M650 360C760 320 805 335 890 302C980 267 1050 300 1200 255V360Z" fill="#173344"/>
+<g stroke="url(#accent)" stroke-width="1.5" fill="none" opacity=".8">
+  <path d="M650 88H790L850 145H955L1015 88H1135"/>
+  <path d="M700 180H815L865 230H1000L1060 170H1160"/>
+  <path d="M780 52V112L830 162V220"/>
+  <path d="M1100 48V112L1060 152V210"/>
+  <path d="M920 58V118L960 158V212"/>
+</g>
+<g fill="#7debdc">
+  <circle cx="650" cy="88" r="4"/><circle cx="790" cy="88" r="4"/><circle cx="850" cy="145" r="4"/>
+  <circle cx="955" cy="145" r="4"/><circle cx="1015" cy="88" r="4"/><circle cx="1135" cy="88" r="4"/>
+  <circle cx="700" cy="180" r="4"/><circle cx="815" cy="180" r="4"/><circle cx="1000" cy="230" r="4"/>
+  <circle cx="1160" cy="170" r="4"/><circle cx="780" cy="52" r="4"/><circle cx="920" cy="58" r="4"/>
+</g>
+<g transform="translate(825 180)">
+  <rect x="0" y="0" width="132" height="122" rx="10" fill="url(#panel)" stroke="#7ddbd2" stroke-opacity=".65"/>
+  <rect x="12" y="13" width="108" height="27" rx="5" fill="#29495c" stroke="#6ad6d0" stroke-opacity=".45"/>
+  <rect x="12" y="48" width="108" height="27" rx="5" fill="#29495c" stroke="#6ad6d0" stroke-opacity=".45"/>
+  <rect x="12" y="83" width="108" height="27" rx="5" fill="#29495c" stroke="#6ad6d0" stroke-opacity=".45"/>
+  <g fill="#6ee7d8"><circle cx="25" cy="26" r="3"/><circle cx="25" cy="61" r="3"/><circle cx="25" cy="96" r="3"/></g>
+  <g stroke="#8bb5c5" stroke-width="2" stroke-linecap="round" opacity=".8">
+    <path d="M38 26H105M38 61H105M38 96H105"/>
   </g>
-  <path d="M0 238 L120 151 L198 211 L315 112 L418 218 L540 143 L650 226 L780 132 L895 220 L1015 148 L1125 225 L1200 174 L1200 360 L0 360Z" fill="#a5b6ae" opacity=".76"/>
-  <path d="M0 263 L148 196 L250 249 L385 166 L498 251 L625 183 L745 260 L875 183 L1002 250 L1110 193 L1200 242 L1200 360 L0 360Z" fill="url(#farHills)"/>
-  <path d="M0 277 C145 250 210 292 340 270 C485 245 575 292 700 267 C850 236 965 282 1080 257 C1135 246 1170 252 1200 260 L1200 360 L0 360Z" fill="#6f9290"/>
-  <path d="M0 310 C145 276 245 319 370 295 C510 269 610 320 750 293 C900 263 1040 312 1200 281 L1200 360 L0 360Z" fill="url(#nearHills)"/>
-  <path d="M735 360 C745 329 776 315 815 300 C848 288 868 273 887 253" fill="none" stroke="#e9c89b" stroke-width="34" stroke-linecap="round" opacity=".96"/>
-  <path d="M735 360 C745 329 776 315 815 300 C848 288 868 273 887 253" fill="none" stroke="#fff0d0" stroke-width="2.5" stroke-dasharray="9 11" stroke-linecap="round" opacity=".9"/>
-  <g fill="none" stroke="#fff8ed" stroke-width="2" opacity=".72">
-    <path d="M102 100 q10 -10 20 0 q10 -10 20 0"/>
-    <path d="M170 123 q8 -8 16 0 q8 -8 16 0"/>
-    <path d="M650 85 q9 -9 18 0 q9 -9 18 0"/>
-  </g>
-  <g fill="#284e55" opacity=".48">
-    <path d="M1040 276 l8 -26 l8 26z"/>
-    <path d="M1051 276 l9 -32 l9 32z"/>
-    <path d="M1092 284 l8 -24 l8 24z"/>
-  </g>
-  <text x="78" y="76" fill="#365a61" font-family="Arial, Helvetica, sans-serif" font-size="14" letter-spacing="5">RUI-GG  /  PERSONAL SPACE</text>
-  <text x="74" y="163" fill="#183d49" font-family="Georgia, 'Times New Roman', serif" font-size="64" font-weight="bold" letter-spacing="-1">STAY CURIOUS.</text>
-  <text x="80" y="211" fill="#284f59" font-family="Georgia, 'Times New Roman', serif" font-size="27" font-style="italic" letter-spacing="1">Take the scenic route.</text>
-  <text x="80" y="292" fill="#f9e9d1" font-family="Arial, Helvetica, sans-serif" font-size="12" letter-spacing="4">LIFE  ·  IDEAS  ·  LITTLE ADVENTURES</text>
-  <path d="M80 232 H278" stroke="#fff4df" stroke-width="2" opacity=".8"/>
-  <circle cx="1100" cy="73" r="3" fill="#fff6df"/>
-  <circle cx="1134" cy="98" r="2" fill="#fff6df"/>
-  <circle cx="1067" cy="120" r="2" fill="#fff6df"/>
+</g>
+<g transform="translate(1010 230)" opacity=".9">
+  <rect x="0" y="0" width="116" height="70" rx="9" fill="#173248" stroke="#f6bd86" stroke-opacity=".75"/>
+  <path d="M15 22H101M15 38H85M15 54H93" stroke="#f6bd86" stroke-opacity=".7" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="14" cy="22" r="2.5" fill="#f6bd86"/>
+</g>
+<g fill="#d8edf0" opacity=".7" font-family="Arial, Helvetica, sans-serif" font-size="10" letter-spacing="2">
+  <text x="840" y="170">COMPUTE</text>
+  <text x="1020" y="218">OBSERVE</text>
+  <text x="1080" y="65">CONNECT</text>
+</g>
+<text x="72" y="68" fill="#80e7dc" font-family="Arial, Helvetica, sans-serif" font-size="13" letter-spacing="5">RUI  /  CLOUD · INFRASTRUCTURE · DEVOPS</text>
+<text x="68" y="155" fill="#f3f8f8" font-family="Arial, Helvetica, sans-serif" font-size="58" font-weight="700" letter-spacing="-2">BUILD SYSTEMS.</text>
+<text x="72" y="211" fill="#f5c99d" font-family="Georgia, 'Times New Roman', serif" font-size="36" font-style="italic">Explore possibilities.</text>
+<path d="M74 236H365" stroke="url(#accent)" stroke-width="3" stroke-linecap="round"/>
+<text x="74" y="278" fill="#b8d1d9" font-family="Arial, Helvetica, sans-serif" font-size="12" letter-spacing="3">CLOUD PLATFORMS  /  AUTOMATION  /  RELIABILITY</text>
+<text x="74" y="322" fill="#8baeb9" font-family="Arial, Helvetica, sans-serif" font-size="11" letter-spacing="2">STAY CURIOUS. KEEP BUILDING.</text>
 </svg>
