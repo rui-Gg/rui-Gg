@@ -1,72 +1,59 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
-<title id="title">Build systems. Explore possibilities.</title>
-<desc id="desc">A modern cloud infrastructure inspired banner with a warm sunrise, network connections, server layers and a bright horizon.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="title desc">
+<title id="title">Rui — Cloud, Systems, Automation</title>
+<desc id="desc">A minimal midnight-blue technical landscape with a warm horizon and subtle network connections.</desc>
 <defs>
   <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-    <stop offset="0" stop-color="#0b1728"/>
-    <stop offset=".58" stop-color="#142c43"/>
-    <stop offset="1" stop-color="#244b5a"/>
+    <stop offset="0" stop-color="#0b1726"/>
+    <stop offset=".55" stop-color="#142c40"/>
+    <stop offset="1" stop-color="#244653"/>
   </linearGradient>
-  <linearGradient id="sun" x1="0" y1="0" x2="0" y2="1">
-    <stop offset="0" stop-color="#ffd7a0" stop-opacity=".95"/>
-    <stop offset="1" stop-color="#f28e67" stop-opacity=".08"/>
+  <linearGradient id="horizon" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#f0b98e" stop-opacity="0"/>
+    <stop offset=".55" stop-color="#f0b98e" stop-opacity=".9"/>
+    <stop offset="1" stop-color="#70d7d0" stop-opacity=".1"/>
   </linearGradient>
-  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
-    <stop offset="0" stop-color="#5eead4"/>
-    <stop offset="1" stop-color="#60a5fa"/>
+  <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#f3bd91"/>
+    <stop offset="1" stop-color="#67d7d0"/>
   </linearGradient>
-  <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
-    <stop offset="0" stop-color="#203b50" stop-opacity=".96"/>
-    <stop offset="1" stop-color="#13283a" stop-opacity=".9"/>
-  </linearGradient>
-  <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
-    <path d="M36 0H0V36" fill="none" stroke="#9cc6d4" stroke-opacity=".10" stroke-width="1"/>
+  <radialGradient id="glow">
+    <stop offset="0" stop-color="#f3c49b" stop-opacity=".48"/>
+    <stop offset="1" stop-color="#f3c49b" stop-opacity="0"/>
+  </radialGradient>
+  <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+    <path d="M40 0H0V40" fill="none" stroke="#a6c8d1" stroke-opacity=".07" stroke-width="1"/>
   </pattern>
+  <filter id="blur"><feGaussianBlur stdDeviation="28"/></filter>
 </defs>
-<rect width="1200" height="360" fill="url(#bg)"/>
-<rect width="1200" height="360" fill="url(#grid)"/>
-<circle cx="1000" cy="125" r="120" fill="url(#sun)" opacity=".8"/>
-<circle cx="1000" cy="125" r="54" fill="#ffd9a6" opacity=".9"/>
-<path d="M690 260L815 184L900 231L1010 150L1100 218L1200 165V360H690Z" fill="#294e5a" opacity=".75"/>
-<path d="M650 300L790 230L880 268L1005 202L1110 265L1200 224V360H650Z" fill="#1c3c4c" opacity=".9"/>
-<path d="M650 360C760 320 805 335 890 302C980 267 1050 300 1200 255V360Z" fill="#173344"/>
-<g stroke="url(#accent)" stroke-width="1.5" fill="none" opacity=".8">
-  <path d="M650 88H790L850 145H955L1015 88H1135"/>
-  <path d="M700 180H815L865 230H1000L1060 170H1160"/>
-  <path d="M780 52V112L830 162V220"/>
-  <path d="M1100 48V112L1060 152V210"/>
-  <path d="M920 58V118L960 158V212"/>
+<rect width="1200" height="340" fill="url(#bg)"/>
+<rect width="1200" height="340" fill="url(#grid)"/>
+<circle cx="930" cy="158" r="180" fill="url(#glow)" filter="url(#blur)"/>
+<circle cx="930" cy="158" r="64" fill="#f4c69e" opacity=".88"/>
+<circle cx="930" cy="158" r="84" fill="none" stroke="#f4c69e" stroke-opacity=".32"/>
+<circle cx="930" cy="158" r="110" fill="none" stroke="#83d9d0" stroke-opacity=".22"/>
+<path d="M650 270L790 212L880 240L1000 180L1100 220L1200 166V340H650Z" fill="#1b3a49" opacity=".8"/>
+<path d="M620 302L780 250L890 278L1020 220L1120 252L1200 224V340H620Z" fill="#142f40"/>
+<g fill="none" stroke="url(#line)" stroke-width="1.4" opacity=".78">
+  <path d="M720 72H820L875 126H1040L1090 76H1160"/>
+  <path d="M710 230H800L850 184H1015L1070 230H1165"/>
+  <path d="M790 48V112L845 166"/>
+  <path d="M1090 48V108L1040 158"/>
+  <path d="M1145 130H1085L1040 174"/>
 </g>
-<g fill="#7debdc">
-  <circle cx="650" cy="88" r="4"/><circle cx="790" cy="88" r="4"/><circle cx="850" cy="145" r="4"/>
-  <circle cx="955" cy="145" r="4"/><circle cx="1015" cy="88" r="4"/><circle cx="1135" cy="88" r="4"/>
-  <circle cx="700" cy="180" r="4"/><circle cx="815" cy="180" r="4"/><circle cx="1000" cy="230" r="4"/>
-  <circle cx="1160" cy="170" r="4"/><circle cx="780" cy="52" r="4"/><circle cx="920" cy="58" r="4"/>
+<g fill="#8de4da">
+  <circle cx="720" cy="72" r="3"/><circle cx="820" cy="72" r="3"/><circle cx="875" cy="126" r="3"/>
+  <circle cx="1040" cy="126" r="3"/><circle cx="1090" cy="76" r="3"/><circle cx="1160" cy="76" r="3"/>
+  <circle cx="710" cy="230" r="3"/><circle cx="800" cy="230" r="3"/><circle cx="850" cy="184" r="3"/>
+  <circle cx="1015" cy="184" r="3"/><circle cx="1070" cy="230" r="3"/><circle cx="1165" cy="230" r="3"/>
 </g>
-<g transform="translate(825 180)">
-  <rect x="0" y="0" width="132" height="122" rx="10" fill="url(#panel)" stroke="#7ddbd2" stroke-opacity=".65"/>
-  <rect x="12" y="13" width="108" height="27" rx="5" fill="#29495c" stroke="#6ad6d0" stroke-opacity=".45"/>
-  <rect x="12" y="48" width="108" height="27" rx="5" fill="#29495c" stroke="#6ad6d0" stroke-opacity=".45"/>
-  <rect x="12" y="83" width="108" height="27" rx="5" fill="#29495c" stroke="#6ad6d0" stroke-opacity=".45"/>
-  <g fill="#6ee7d8"><circle cx="25" cy="26" r="3"/><circle cx="25" cy="61" r="3"/><circle cx="25" cy="96" r="3"/></g>
-  <g stroke="#8bb5c5" stroke-width="2" stroke-linecap="round" opacity=".8">
-    <path d="M38 26H105M38 61H105M38 96H105"/>
-  </g>
+<g transform="translate(1030 255)" opacity=".88">
+  <rect x="0" y="0" width="105" height="48" rx="7" fill="#10283a" stroke="#7bd9d0" stroke-opacity=".7"/>
+  <path d="M13 15H90M13 25H76M13 35H84" stroke="#a6cbd0" stroke-opacity=".65" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="13" cy="15" r="2" fill="#f3bd91"/>
 </g>
-<g transform="translate(1010 230)" opacity=".9">
-  <rect x="0" y="0" width="116" height="70" rx="9" fill="#173248" stroke="#f6bd86" stroke-opacity=".75"/>
-  <path d="M15 22H101M15 38H85M15 54H93" stroke="#f6bd86" stroke-opacity=".7" stroke-width="2" stroke-linecap="round"/>
-  <circle cx="14" cy="22" r="2.5" fill="#f6bd86"/>
-</g>
-<g fill="#d8edf0" opacity=".7" font-family="Arial, Helvetica, sans-serif" font-size="10" letter-spacing="2">
-  <text x="840" y="170">COMPUTE</text>
-  <text x="1020" y="218">OBSERVE</text>
-  <text x="1080" y="65">CONNECT</text>
-</g>
-<text x="72" y="68" fill="#80e7dc" font-family="Arial, Helvetica, sans-serif" font-size="13" letter-spacing="5">RUI  /  CLOUD · INFRASTRUCTURE · DEVOPS</text>
-<text x="68" y="155" fill="#f3f8f8" font-family="Arial, Helvetica, sans-serif" font-size="58" font-weight="700" letter-spacing="-2">BUILD SYSTEMS.</text>
-<text x="72" y="211" fill="#f5c99d" font-family="Georgia, 'Times New Roman', serif" font-size="36" font-style="italic">Explore possibilities.</text>
-<path d="M74 236H365" stroke="url(#accent)" stroke-width="3" stroke-linecap="round"/>
-<text x="74" y="278" fill="#b8d1d9" font-family="Arial, Helvetica, sans-serif" font-size="12" letter-spacing="3">CLOUD PLATFORMS  /  AUTOMATION  /  RELIABILITY</text>
-<text x="74" y="322" fill="#8baeb9" font-family="Arial, Helvetica, sans-serif" font-size="11" letter-spacing="2">STAY CURIOUS. KEEP BUILDING.</text>
+<text x="76" y="78" fill="#85ded6" font-family="Arial, Helvetica, sans-serif" font-size="12" letter-spacing="5">RUI  /  ENGINEERING &amp; EXPLORATION</text>
+<text x="72" y="166" fill="#f2f6f5" font-family="Arial, Helvetica, sans-serif" font-size="57" font-weight="700" letter-spacing="-2">ENGINEER THE</text>
+<text x="72" y="225" fill="#f2c49c" font-family="Georgia, 'Times New Roman', serif" font-size="54" font-style="italic" letter-spacing="-1">possible.</text>
+<path d="M76 250H365" stroke="url(#line)" stroke-width="2.5" stroke-linecap="round"/>
+<text x="76" y="286" fill="#bdd2d6" font-family="Arial, Helvetica, sans-serif" font-size="12" letter-spacing="3">CLOUD  ·  SYSTEMS  ·  AUTOMATION</text>
 </svg>
